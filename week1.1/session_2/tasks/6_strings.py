@@ -3,17 +3,29 @@
 
 user_string = input("Enter a string: ")
 
+#prints original string
 print(f"\nOriginal String: {user_string}")
+#prints string in lowercase
 print(f"Modified String 1: {user_string.lower()}")
+#prints string in uppercase
 print(f"Modified String 2: {user_string.upper()}")
+#prints string and removes all whitespace from the start and end
 print(f"Modified String 3: {user_string.strip()}")
+#replaces all instances with the letter "a" in the string with "@"
 print(f"Modified String 4: {user_string.replace('a', '@')}")
+#makes the first letter of the string a capital
 print(f"Modified String 5: {user_string.capitalize()}")
+#reverses the string
 print(f"Modified String 6: {user_string[::-1]}")
+#makes the first character of every word in the string a capital
 print(f"Modified String 7: {user_string.title()}")
+#prints length of the string in no. characters
 print(f"Modified String 8: {len(user_string)}")
+#prints index of first occurrence of specified char/string
 print(f"Modified String 9: {user_string.find('a')}")
+#counts number of occurences of specified char/string
 print(f"Modified String 10: {user_string.count('a')}")
+#checks if the string starts with the specified string
 print(f"Modified String 11: {user_string.startswith('Hello')}")
 print(f"Modified String 12: {user_string.endswith('!')}")
 print(f"Modified String 13: {user_string.isalnum()}")
