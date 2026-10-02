@@ -27,9 +27,13 @@ print(f"Modified String 9: {user_string.find('a')}")
 print(f"Modified String 10: {user_string.count('a')}")
 #checks if the string starts with the specified string
 print(f"Modified String 11: {user_string.startswith('Hello')}")
+#checks if the string ends with the specified string / characters, a ! in this case
 print(f"Modified String 12: {user_string.endswith('!')}")
+#checks if the string consists only of alphanumeric characters
 print(f"Modified String 13: {user_string.isalnum()}")
+#check if the string consists of only alphabetical characters
 print(f"Modified String 14: {user_string.isalpha()}")
+#check if the string consists of numeric characters
 print(f"Modified String 15: {user_string.isdigit()}")
 
 
