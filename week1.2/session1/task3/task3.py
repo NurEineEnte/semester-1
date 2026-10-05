@@ -11,3 +11,5 @@ print(fruit.count("cherry"))
 # Display how many times "strawberry" occurs
 print(fruit.count("strawberry"))
 # Unpack tuple into variables
+(a,b,c) = fruit
+print(a,b,c)
