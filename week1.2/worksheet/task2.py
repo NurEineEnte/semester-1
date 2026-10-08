@@ -1,7 +1,9 @@
 # Worksheet 1.2: Task 2 Solution
 from util import read_numbers
+import sys
 numberlist = read_numbers()
-
+if len(numberlist) == 0:
+    sys.exit("Error: no numbers provided")
 
 print(f"Minimum = {min(numberlist)}")
 print(f"Maximum = {max(numberlist)}")
