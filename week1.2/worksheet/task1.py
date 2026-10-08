@@ -3,8 +3,7 @@ import sys
 try:
     score = int(input("Input a score 0-100 "))
 except:
-    print("Error: Grade must be an integer between 0 and 100")
-    sys.exit("Error: no numbers provided")
+    sys.exit("Error: Grade must be an integer between 0 and 100")
 if score >= 0 and score <= 39:
     grade = "Fail"
 elif score >= 40 and score <= 69:
@@ -12,6 +11,5 @@ elif score >= 40 and score <= 69:
 elif score >= 70 and score <= 100:
     grade = "Distinction"
 else:
-    print("Error: Grade must be an integer between 0 and 100")
-    quit()
+    sys.exit("Error: Grade must be an integer between 0 and 100")
 print(f"{score} is a {grade}")

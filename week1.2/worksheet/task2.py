@@ -12,5 +12,5 @@ numberlist.sort()
 if len(numberlist) % 2 == 1:
     median = numberlist[int(len(numberlist)/2)]
 else:
-    median = (numberlist[len(numberlist)//2] + numberlist[len(numberlist)//2 + 1]) / 2
+    median = (numberlist[len(numberlist)//2 -1] + numberlist[len(numberlist)//2]) / 2
 print(f"Median = {median}")
