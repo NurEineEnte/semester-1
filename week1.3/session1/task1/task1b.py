@@ -9,4 +9,6 @@ while fruit:
 
 # Why does this work?
 
+#pop removes the  first item out of a list and also returns it
 # What features of Python does it rely on?
+#list methods
