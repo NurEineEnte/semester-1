@@ -2,8 +2,8 @@
 
 course = "computer science"
 mylist = []
-for ch in course:
-	mylist.append(ch)
+for i in range(len(course)):
+	mylist.append(course[i])
 print(mylist)
 mylist.sort()
 print(mylist)
