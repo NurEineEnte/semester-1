@@ -6,6 +6,12 @@
 
 
 # open and read the file
+with open("site.log", "r") as f:
+    f.readline()
+    for line in f:
+        line = line.strip().split(",")
+        if int(line[5]) == 401 and line[4] == "POST /login":
+            print(f"IP address {line[2]} failed to login at {line[1]} on {line[0]}")
 
 # find all failed login attempts (POST /login with the response 401)
 # and print these out in a human-readable format:
