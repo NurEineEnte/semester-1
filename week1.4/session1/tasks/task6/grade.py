@@ -6,6 +6,18 @@
 
 
 def calculate_grade(marks):
+    if not(0 <= marks <= 100):
+      return None
+    if marks < 50:
+        return "F"
+    elif marks < 60:
+        return "D"
+    elif marks < 70:
+        return "C"
+    elif marks < 80:
+      return "B"
+    else:
+        return "A"
     """
     This function returns a grade based on the provided mark, according to
     the following grading scale:

@@ -11,6 +11,8 @@
 # function implementation
 
 def mystery_func(string):
+    """accepts a string, and returns a list of integers with the first value being how many letters were capital, and the latter how many
+     were lowercase """
     upper = 0
     lower = 0
 

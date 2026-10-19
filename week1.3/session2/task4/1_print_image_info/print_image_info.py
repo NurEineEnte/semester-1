@@ -3,6 +3,15 @@
 # Open a pgm image file
 # You can use the relative path ../images/filename
 # You could handle file errors with try/except.
+with open("/workspaces/semester-1/week1.3/session2/task4/images/feep.pgm") as f:
+    f.readline()
+    dimensions = f.readline().split(" ")
+    mgv = f.readline()
+    width = dimensions[0]
+    height = dimensions[1]
+
+print(f"Dimensions: {width} x {height}")
+print(f"Max Gray Value: {mgv}")
 
 # Read the file content
 
