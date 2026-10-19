@@ -7,7 +7,23 @@
 # Create inverted image
 # the formula: invert_pixel_value = max_gray - original_pixel_value
 
+with open("invertedimage.pgm","w") as f:
+    f.write("P2")
+with open("invertedimage.pgm","a") as f:
 
+with open("/workspaces/semester-1/week1.3/session2/task4/images/feep.pgm") as f:
+    f.readline()
+    f.readline()
+    mgv = int(f.readline())
+    for line in f:
+        line = line.split()
+        invertedline = []
+        for i in line:
+            invertedline.append(mgv - int(i))
+        
+        
+
+    
 # write the inverted pgm image to a new file.
 # Remember to include:
 # - the string `P2`
