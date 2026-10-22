@@ -17,14 +17,18 @@ print(calendar.month(2025, 10))
 # namely the w and l parameters. Write code to made two more function calls
 # to the month function with different values of w and l and observe the
 # output.
-
+print(calendar.month(2025, 12, w = 2, l=4))
+print(calendar.month(2025, 12, w = 9, l=0))
 
 # While at https://docs.python.org/3/library/calendar.html, explore
 # the calendar function(calendar.calendar, yes the function is called
 # calendar). The calendar function returns a 3-column calendar for an entire
 # year as a multi-line string. For example print(calendar.calendar(2025))
 # will print the calendar for 2025.
+print(calendar.calendar(2025, 2, 2, c = 2, m = 4 ))
 
 # Your task is to write code to make 3 functions calls to the calendar
 # function with different values to the optional arguments (w, l, c, and m).
 # Display the output to observe the differences.
+print(calendar.calendar(2025, 3, 3, c = 4, m = 5 ))
+print(calendar.calendar(2023, 0, 0, c = 1, m = 6 ))

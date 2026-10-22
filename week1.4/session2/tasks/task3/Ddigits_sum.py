@@ -19,8 +19,11 @@ def digits_sum(number):
     """
     # complete your code here
     # base case
-
+    if str(number) == 0:
+        return 0
+    total = number  // (10 ** (len(str(number))-1)) + digits_sum((number - number  // (10 ** (len(str(number))-1))) )
     # recursive case
+
 
 
 # check if correct output is produced

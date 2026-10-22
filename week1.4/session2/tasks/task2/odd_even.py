@@ -12,12 +12,19 @@ def odd_even(lstIntegers):
 
     Args:
         lstIntegers (list): A list of integers.
-
     Returns:
         list: A list containing [odd_count, even_count].
     """
 
     # Complete your code here
+    odds = 0
+    evens = 0
+    for i in lstIntegers:
+        if i % 2 == 1:
+            odds +=1
+        else:
+            evens+=1
+    return [odds, evens]
 
 
 # Check if correct output is produced
