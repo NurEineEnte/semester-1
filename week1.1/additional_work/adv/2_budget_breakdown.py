@@ -5,9 +5,17 @@
 - Extension: format the totals so they always show two decimal places.
 """
 
-travel_cost_input = input("Travel cost in pounds: ")
-food_cost_input = input("Food cost in pounds: ")
-accommodation_cost_input = input("Accommodation cost in pounds: ")
+travel_cost_input = float(input("Travel cost in pounds: "))
+food_cost_input = float(input("Food cost in pounds: "))
+accommodation_cost_input = float(input("Accommodation cost in pounds: "))
+
+total = travel_cost_input + food_cost_input + accommodation_cost_input
+averagepercategory = total / 3
+print(f"Travel: £{travel_cost_input}")
+print(f"Food: £{food_cost_input}")
+print(f"Accommodation: £{accommodation_cost_input}")
+print(f"Total: £{total:.2f}")
+print(f"Average per category: £{averagepercategory:.2f}")
 
 # TODO: convert each value to a number type that supports decimals
 # TODO: calculate the total and the average spend per category

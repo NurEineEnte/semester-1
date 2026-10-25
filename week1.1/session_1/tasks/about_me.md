@@ -1,3 +1,55 @@
 # About Me
 
 Using the resources linked in examples, have a go at making a quick about you page using Markdown.
+
+### Hello World ###
+I am very cool i am not a rock but i do indeed like to eat rocks
+>that is pretty cool imo
+
+>demrot !!!!
+>if you die of death have you died
+
+1. how does one bake a cake
+   * 1 (18.25-ounce) package chocolate cake mix
+   * 1 can prepared coconut–pecan frosting
+    * 3/4 cup vegetable oil
+    4 large eggs
+    1 cup semi-sweet chocolate chips
+    3/4 cup butter or margarine
+    1 2/3 cup granulated sugar
+    2 cups all-purpose flour
+
+Don't forget garnishes such as:
+
+    Fish-shaped crackers
+    Fish-shaped candies
+    Fish-shaped solid waste
+    Fish-shaped dirt
+    Fish-shaped ethylbenzene (what is it with fish?)
+    Pull-and-peel licorice
+    Fish-shaped volatile organic compounds and sediment-shaped sediment
+    Candy-coated peanut butter pieces (shaped like fish)
+    1 cup lemon juice
+    Alpha resins
+    Unsaturated polyester resin
+    Fiberglass surface resins and volatile malted milk impoundments
+    9 large egg yolks
+    12 medium geosynthetic membranes
+    1 cup granulated sugar
+    An entry called: "How to Kill Someone with Your Bare Hands"
+    2 cups rhubarb, sliced
+    2/3 cups granulated rhubarb
+    1 tbsp. all-purpose rhubarb
+    1 tsp. grated orange rhubarb
+    3 tbsp. rhubarb, on fire
+    1 large rhubarb
+    1 cross borehole electromagnetic imaging rhubarb
+    2 tbsp. rhubarb juice (again, what is it with rhubarb?)
+    Adjustable aluminum head positioner
+    Slaughter electric needle injector
+    Cordless electric needle injector
+    Injector needle driver
+    Injector needle gun
+    Cranial caps
+
+And it contains proven preservatives, deep-penetration agents, and gas- and odor-control chemicals that will deodorize and preserve putrid tissue.

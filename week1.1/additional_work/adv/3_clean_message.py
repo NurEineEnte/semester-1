@@ -6,8 +6,13 @@
 """
 
 raw_message = input("Type a message to tidy: ")
-
+print(f"length before: {len(raw_message)}")
+raw_message = raw_message.strip()
+raw_message = raw_message.lower()
+raw_message = raw_message.title()
 # TODO: apply a sequence of string methods to produce a cleaned_message
 # Example methods: strip, title, replace, lower, upper
 # TODO: display the original and cleaned messages
 # Extension: display the character counts for each version
+print(f"length after: {len(raw_message)}")
+print(f"new string: {raw_message}")
