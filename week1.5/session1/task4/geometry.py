@@ -32,6 +32,9 @@ class Point:
 #  - A method area(), returning the area of the circle
 #  - A method perimeter(), returning the perimeter of the circle
 class Circle:
+    """
+    A circle in 2D space, definded by its centre (a point) and its radius.
+    """
     def __init__(self, centre, radius):
         self.centre = centre
         self.radius = radius
