@@ -1,6 +1,7 @@
 # Another bad class implementation
 
 # What does the runtime error mean?
+#class does not have an attribute that it is trying to access, as it was defined as a local variable rather than an attribute
 # How do we fix the code?
 
 class Point:
@@ -12,8 +13,8 @@ class Point:
         """
         Creates a Point, given x & y coordinates.
         """
-        x = x_coordinate
-        y = y_coordinate
+        self.x = x_coordinate
+        self.y = y_coordinate
 
 
 p = Point(1.5, 2.0)
