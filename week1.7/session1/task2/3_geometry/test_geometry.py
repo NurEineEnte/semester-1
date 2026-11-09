@@ -1,6 +1,7 @@
 # Week 1.7, Session 1: Task 2 - unit tests for the methods in Point and Circle
 
 from geometry import Point, Circle
+import math
 
 def test_point_constructor():
     p = Point(5, -2)
@@ -14,7 +15,7 @@ def test_point_distance():
 def test_point_distance_to():
     p1 = Point(0, 0)
     p2 = Point(3, 4)
-    
+    assert p1.distance_to(p2) == 5
     # complete the implementation for
     # testing distance_to()
     
@@ -22,3 +23,19 @@ def test_point_distance_to():
 # Write test functions to test the __init__(), 
 # area() and perimeter() methods in Circle class
 # you can use the default value for centre coordinates
+
+def test_circle_constructor():
+    c = Circle(5)
+    assert [c.centre.x, c.centre.y] == [0,0]
+    assert c.radius == 5
+
+def test_circle_area():
+    c = Circle(8)
+    assert c.area() == math.pi * 8 **2
+    c1 = Circle(5)
+    assert c1.area() == math.pi * 5 **2
+
+def test_circle_perimeter():
+    c = Circle(8)
+    assert c.perimeter() == 8 * 2 * math.pi
+
