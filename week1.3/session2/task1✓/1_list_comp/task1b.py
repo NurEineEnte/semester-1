@@ -1,0 +1,20 @@
+# Week 1.3, Session 1: Task 6b
+"""Program showing an array of values, before looping through said program, which outputs the list but with all evens doubled."""
+values = [1,4,2,6,3,7]
+
+print(values)
+
+newval = []
+for i in values:
+    if i % 2 == 0:
+        newval.append(2 * i)
+    else:
+        newval.append(i)
+
+print(newval)
+
+newval2 = [i * 2 if i % 2 == 0 else i for i in values]
+print(newval2)
+
+# write the list comprehension equivalent to the `for` loop
+

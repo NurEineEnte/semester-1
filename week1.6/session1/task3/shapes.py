@@ -39,3 +39,25 @@ class Shape:
 
 # Implement your Circle class here
 # Make sure that it inherits properly from Shape!
+
+def Circle(Shape, radius):
+    def __init__(self):
+        super().__init__("red", (0,0))
+        self.radius = radius
+        self.centre = self.position
+        
+    def area(self):
+        """
+        Returns the area of this Circle.
+        """
+        return math.pi * self.radius * self.radius
+        
+    def perimeter(self):
+        """
+        Returns the perimeter of this Circle.
+        """
+        return 2.0 * math.pi * self.radius
+        
+    # Implement a __str__() method here
+    def __str__(self):
+        return f"({self.colour} circle radius {self.radius} at {self.centre}, {self.radius})"

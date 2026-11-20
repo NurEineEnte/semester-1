@@ -1,0 +1,23 @@
+# Week 1.2, Session 1: Task 5
+"""Program demonstrating the use of dictionaries by creating one for cities and the rivers that flow through them,
+also outputting any answers from the demonstrated methods"""
+rivers = {
+    "London": "Thames",
+    "Leeds": "Aire",
+    "Liverpool": "Mersey"
+}
+
+print(rivers)
+
+# Add two new entries to the rivers database
+rivers["Norwich"] = "Wensum"
+rivers ["Bath"] = "Avon"
+# Display all the keys
+print(rivers.keys())
+# Display all the values
+print(rivers.values())
+# Display all the key:value pairs, as tuples
+print(rivers.items())
+# Delete an entry from the rivers database
+rivers.pop("Bath")
+print(rivers)

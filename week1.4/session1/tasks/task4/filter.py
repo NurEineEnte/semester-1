@@ -11,3 +11,4 @@ def filter_positive_numbers(numbers):
     returns a new list of numbers from the original, only adding the positive valeus from the original list through a list comprehensino
     """
     return [num for num in numbers if num > 0]
+print(filter_positive_numbers([-1,2,2,1,1,1,-19,-11,21]))
