@@ -3,7 +3,7 @@
 # Open a pgm image file
 # You can use the relative path ../images/filename
 # You could handle file errors with try/except.
-with open("/workspaces/semester-1/week1.3/session2/task4/images/feep.pgm") as f:
+with open("../images/feep.pgm") as f:
     f.readline()
     dimensions = f.readline().split(" ")
     mgv = f.readline()

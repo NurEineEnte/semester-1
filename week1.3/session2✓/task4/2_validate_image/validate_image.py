@@ -1,7 +1,7 @@
 # Week 1.3, Session 2: Validate image
 # Open a pgm image
 # You could handle file errors with try/except
-with open("/workspaces/semester-1/week1.3/session2/task4/images/invalid_height.pgm") as f:
+with open("../images/invalid_pixels.pgm") as f:
     f.readline()
     dimensions = f.readline().split(" ")
     mgv = int(f.readline())
